@@ -1,0 +1,233 @@
+* {
+  box-sizing: border-box;
+}
+.mentor-page-top-area {
+  height: 35px;
+}
+.side-bar {
+  background-color: #ffffff;
+}
+/* profile */
+.item-list-area-mentor {
+  background-color: #fdfcdc;
+}
+.item-list-area-mentor .container h3 {
+  color: #00afb9;
+}
+.mentor-profile-img-text span {
+  color: #00afb9;
+}
+.mentor-profile-img-text {
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #f07167;
+}
+.mentor-profile .left-span {
+  font-weight: 700;
+  width: 30%;
+  display: inline-block;
+  background-color: #00afb9;
+  padding: 0px 10px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 10px;
+  box-shadow: -2px -2px 4px #fed9b7;
+  color: #fff;
+}
+.mentor-profile .right-span {
+  color: white;
+  margin-left: 10px;
+  background-color: #fed9b7;
+  width: 70%;
+  display: inline-block;
+  font-weight: 500;
+  padding: 0px 10px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 10px;
+  box-shadow: 2px -2px 4px #9e9e9e9c;
+}
+.mentor-profile-radius {
+  border-radius: 20px !important;
+}
+.mentor-profile .card {
+  border: 0px;
+}
+.mentor-profile h4 {
+  color: #00afb9;
+}
+.mentor-profile .list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mentor-profil-form {
+  width: 85%;
+  margin: auto;
+  background-color: #fed9b7;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 13px;
+}
+.mentor-update-profil-button {
+  margin: 22px;
+  float: right;
+  color: white;
+  font-weight: 600;
+  border: 2px solid #faf9f6;
+  background-color: #00afb9;
+  border-radius: 15px;
+}
+.mentor-update-profil-button:hover {
+  background-color: #faf9f6;
+  color: #00afb9;
+  border: 2px solid #00afb9;
+}
+.mentor-update-profil-button:focus {
+  background-color: #faf9f6;
+  color: #00afb9;
+  border: 2px solid #00afb9;
+  box-shadow: none;
+}
+
+.mentor-update-profil-button:active {
+  background-color: #faf9f6;
+  color: #00afb9;
+  border: 2px solid #00afb9;
+}
+.mentor-modal-text {
+  border-radius: 10px;
+  color: white;
+  background-color: #f07167;
+  padding: 6px;
+  display: inline;
+  margin: 15px auto;
+  text-align: center;
+}
+.modal-content {
+  border-radius: 15px;
+}
+.mentor-profil-form .save,
+.mentor-update-student-form .save {
+  background-color: #0081a7;
+  border: 1px solid #0081a7;
+  font-size: 12px;
+}
+
+.mentor-profil-form .save:hover,
+.mentor-update-student-form .save:hover {
+  background-color: #fff;
+  border: 1px solid #0081a7;
+  color: #0081a7;
+}
+
+.mentor-profil-form .close,
+.mentor-update-student-form .close {
+  background-color: #f07167;
+  border: 1px solid #f07167;
+  font-size: 12px;
+}
+.mentor-profil-form .close:hover,
+.mentor-update-student-form .close:hover {
+  background-color: #fff;
+  border: 1px solid #f07167;
+  color: #f07167;
+}
+/* MentorAsideBar css */
+.mentor-asidebar-container {
+  position: fixed;
+  width: 100%;
+  margin: auto;
+  top: 65px;
+  z-index: 9978;
+}
+.mentor-content-area {
+  margin-top: 137px;
+}
+.text-icon-button {
+  border: 0px solid #f07167;
+  color: #f07167;
+  font-weight: 500;
+  align-items: center;
+  /* width: 170px; */
+  background-color: #ffffff;
+}
+.text-icon-button i {
+  margin-right: 8px;
+}
+.text-icon-container:hover {
+  background-color: #3ea842;
+  color: white;
+}
+.true {
+  color: #00afb9;
+}
+.mentor-aside-container a:visited {
+  background-color: #00afb9;
+  color: white;
+}
+
+/* MentorStudnetList */
+
+.fa-trash-can {
+  color: #f44336;
+  font-size: 18px;
+}
+.fa-pen-to-square {
+  color: #ff9800;
+  font-size: 18px;
+}
+
+.fa-screwdriver-wrench {
+  font-size: 18px;
+  color: #ff9800;
+}
+
+.mui-mentor-student-task {
+  background-color: #fdfcdc !important;
+  padding: 10px 10px;
+}
+.mui-mentor-student-task h5 {
+  background-color: white;
+  padding: 5px 25px;
+  margin-left: 0px !important;
+  color: #00afb9;
+  display: inline-block;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+.mui-mentor-student-task thead th {
+  background-color: #fed9b7;
+  color: #f07167;
+}
+.mui-mentor-student-task tbody td {
+  color: #9e9e9e;
+}
+/* Mentor student update modal */
+.form-mentor {
+  width: 90%;
+  margin: auto;
+  background-color: #fed9b7;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 13px;
+}
+.form-mentor h4 span {
+  color: #080114;
+  text-decoration-line: underline;
+}
+
+/* MentorTaskList */
+.student-task-container {
+  padding: 8px 10px;
+  margin-bottom: 30px;
+  box-shadow: 2px 2px 2px 2px #fed9b7;
+  border-radius: 10px;
+}
+.student-task-container h5 {
+  color: #00afb9;
+  font-weight: 700;
+}

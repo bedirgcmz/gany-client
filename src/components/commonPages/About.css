@@ -1,0 +1,79 @@
+#carouselExampleCaptions {
+  width: 65%;
+  margin: auto;
+  border-radius: 15px;
+  box-shadow: #c4bdbb 0px 10px 20px;
+}
+
+.slaider-container h3 {
+  color: #00afb9;
+}
+.carousel-item {
+  background-color: black !important;
+}
+.carousel-item img {
+  border-radius: 10px;
+  opacity: 0.7;
+}
+.carousel-inner {
+  background-color: rgba(1, 1, 1, 0.689);
+  border-radius: 15px;
+}
+.carousel-item .carousel-caption {
+  background-color: #8080804a;
+  border-radius: 15px;
+}
+
+.about-card-image {
+  /* background: url("./image/undraw_road_to_knowledge_m8s0.svg") no-repeat center center; */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* width: 450px;
+  height: 280px; */
+}
+.about-card-image img {
+  width: 100%;
+  border-radius: 6%;
+}
+.about-card-text {
+  width: 450px;
+  height: auto;
+  border: none !important;
+  font-family: "Roboto", sans-serif;
+  color: #808080ab;
+  text-align: justify;
+  background-color: #fdfcdc;
+}
+@media (min-width: 1024px) {
+  .first-card-container {
+    height: 280px;
+  }
+  .second-card-container {
+    height: 280px;
+  }
+}
+@media (min-width: 768px) {
+  .first-card-container {
+    height: auto;
+  }
+  .second-card-container {
+    height: auto;
+  }
+  .about-card-image {
+    width: 50%;
+  }
+  .about-card-text {
+    width: 50%;
+  }
+}
+@media (max-width: 767px) {
+  .about-card-image {
+    width: 100%;
+  }
+  .about-card-text {
+    width: 100%;
+    height: auto;
+  }
+}

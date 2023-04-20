@@ -1,0 +1,22 @@
+.search-and-rotasion-text {
+  margin-top: 57px;
+}
+.home-page-top-area {
+  height: 17px;
+  background-color: #fdfcdc;
+}
+.category-not-found {
+  background-color: #fdc5c1;
+  padding: 10px;
+  border-radius: 10px;
+  color: #4caf50;
+  font-weight: 600;
+  font-size: 18px;
+}
+.category-not-found i {
+  color: #ff3d00;
+}
+.home-page-top-area p {
+  color: #00afb9;
+  font-weight: 600;
+}

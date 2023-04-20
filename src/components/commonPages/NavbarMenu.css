@@ -1,0 +1,18 @@
+.category-navbar {
+  position: fixed;
+  top: 65px;
+  width: 100%;
+  z-index: 9998;
+}
+.category-area {
+  background-color: #fed9b7 !important;
+}
+
+.navbar-nav .dropdown-menu {
+  padding: 5px 10px;
+  background-color: #fed9b7 !important;
+}
+.category-icon {
+  color: #f07167;
+  font-size: 14px;
+}

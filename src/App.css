@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fdfcdc;
+}
+.App {
+  background-color: #fdfcdc;
+  font-family: "Finlandica", sans-serif;
+}
+.table-responsive {
+  padding: 5px 15px;
+}
+.form-control {
+  color: #00afb9 !important;
+}

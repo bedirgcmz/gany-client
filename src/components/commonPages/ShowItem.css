@@ -1,0 +1,56 @@
+.small-menu {
+  margin-top: 20px;
+  background-color: #fff4e1;
+  padding: 5px;
+  border: 1px solid #e2e9e3;
+  border-radius: 10px;
+}
+.image-small-menu {
+  overflow: auto;
+}
+.image-small-menu img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+}
+.item-descreption {
+  text-align: justify;
+}
+.item-button-group {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.add-task-icon {
+  font-size: 19px;
+  padding: 0;
+  border-radius: 50%;
+  background-color: #0081a7;
+  color: white;
+  width: 25px;
+  height: 25px;
+  line-height: 14px;
+}
+.add-task-icon:hover {
+  background-color: #2a9d35;
+  cursor: pointer;
+  color: white;
+}
+.student-name {
+  width: 100px;
+  color: #f07167;
+}
+.task-gived {
+  width: 90px;
+  color: #00bcd4;
+  text-align: center;
+}
+.subcategories-in-showitem:hover {
+  margin-bottom: 5px;
+}
+.subcategories-in-showitem:hover {
+  color: #00afb9;
+  list-style-type: disclosure-closed;
+  cursor: pointer;
+}

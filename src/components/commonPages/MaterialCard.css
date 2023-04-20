@@ -1,0 +1,31 @@
+.read-more {
+  background-color: #ffffff !important;
+  border-radius: 10px;
+  font-weight: 500;
+  width: 60%;
+  color: #00afb9;
+  border: 1px solid #00afb9 !important;
+  padding: 5px;
+}
+.read-more:hover {
+  border: 1px solid #f07167 !important;
+  color: #f07167;
+}
+.fa-book-open-reader {
+  color: #f07167;
+}
+.read-more:hover ~ .fa-book-open-reader {
+  color: #00afb9;
+}
+.card-img-container {
+  background-color: #dad7cf5e;
+}
+.card-img-container img {
+  border-radius: 6px;
+}
+.material-card-img {
+  height: 220px;
+}
+.material-card-text {
+  text-align: justify;
+}

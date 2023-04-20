@@ -1,0 +1,29 @@
+/* .css-19z1ozs-MuiPaper-root-MuiAppBar-root {
+  position: fixed;
+  top: 80px !important;
+} */
+.css-12i7wg6-MuiPaper-root-MuiDrawer-paper {
+  position: fixed !important;
+  top: 61px !important;
+  background-color: #00afb9 !important;
+  color: #fff !important;
+  font-size: 14px !important;
+  padding-top: 41px !important;
+}
+.css-10hburv-MuiTypography-root {
+  font-size: 15px !important;
+}
+.css-1hsz34s-MuiDrawer-docked {
+  margin-top: -16px !important;
+  background-color: #fdfcdc !important;
+}
+
+/* .list-div {
+  list-style: none;
+  margin: 0px;
+  padding: 0;
+  position: fixed !important;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  top: 135px !important;
+} */

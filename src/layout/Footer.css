@@ -1,0 +1,72 @@
+.footer-container {
+  height: 127px;
+  background-color: #03181f;
+  margin-top: 110px;
+}
+.footer-content {
+  margin-top: 25vh;
+}
+
+.icon-container {
+  font-size: 22px;
+  margin-top: 15px;
+  border-right: 3px solid white;
+  border-left: 3px solid white;
+}
+.text-container {
+  font-size: 11px;
+}
+.footer-link {
+  border-radius: 0;
+  padding-left: 37%;
+  margin-top: 15px;
+}
+.btn-outline-warning {
+  color: #f07167;
+  border-color: #f07167;
+}
+.btn-outline-warning:hover {
+  color: #ffffff;
+  background-color: #f07167;
+  border-color: #f07167;
+}
+@media only screen and (max-width: 768px) {
+  /* For desktop: */
+  .footer-container {
+    height: 260px;
+  }
+  .footer-link {
+    text-align: center;
+    padding-left: 0;
+  }
+}
+.icon-container .fa-brands {
+  margin: auto 15px;
+  width: 25px;
+  height: 25px;
+  line-height: 27px;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #03181f;
+  font-size: 19px;
+}
+.icon-container .fa-brands:hover {
+  background-color: #f07167;
+}
+.footer-link a {
+  color: #f07167;
+  text-decoration: none;
+  font-size: 15px;
+}
+.footer-link a:hover {
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+}
+.button-container {
+  text-align: center;
+  margin-top: 32px;
+}
+.text-container {
+  color: #f07167;
+}
